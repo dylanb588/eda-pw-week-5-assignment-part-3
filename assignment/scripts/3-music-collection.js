@@ -3,7 +3,15 @@ console.log('***** Music Collection *****')
 const myCollection = [];
 
 function addToCollection(collection, title, artist, yearPublished) {
-  
+  const newAlbum = {
+    title: title,
+    artist: artist,
+    yearPublished: yearPublished,
+  };
+
+  collection.push(newAlbum);
+
+  return newAlbum;
 }
 
 
