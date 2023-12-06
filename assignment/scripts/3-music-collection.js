@@ -13,6 +13,7 @@ function addToCollection(collection, title, artist, yearPublished) {
 
   return newAlbum;
 }
+
 let newAlbum = addToCollection(myCollection, "Norman F*****g Rockwell!", "Lana Del Rey", 2019);
 console.log(newAlbum);
 newAlbum = addToCollection(myCollection, "Hot Pink", "Doja Cat", 2019);
@@ -27,8 +28,13 @@ newAlbum = addToCollection(myCollection, "PORTALS", "Melanie Martinez", 2023);
 console.log(newAlbum);
 console.log(myCollection);
 
+function showCollection(collection) {
+  for (const album of collection) {
+    console.log(`${album.title}, by, ${album.artist}, ${album.yearPublished}`);
+  }
+}
 
-
+showCollection(myCollection);
 
 
 
