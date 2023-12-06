@@ -13,6 +13,19 @@ function addToCollection(collection, title, artist, yearPublished) {
 
   return newAlbum;
 }
+let newAlbum = addToCollection(myCollection, "Norman F*****g Rockwell!", "Lana Del Rey", 2019);
+console.log(newAlbum);
+newAlbum = addToCollection(myCollection, "Hot Pink", "Doja Cat", 2019);
+console.log(newAlbum);
+newAlbum = addToCollection(myCollection, "Chemtrails Over the Country Club", "Lana Del Rey", 2021);
+console.log(newAlbum);
+newAlbum = addToCollection(myCollection, "Endless Summer Vacation", "Miley Cyrus", 2023);
+console.log(newAlbum);
+newAlbum = addToCollection(myCollection, "Dirt Femme", "Tove Lo", 2022);
+console.log(newAlbum);
+newAlbum = addToCollection(myCollection, "PORTALS", "Melanie Martinez", 2023);
+console.log(newAlbum);
+console.log(myCollection);
 
 
 
