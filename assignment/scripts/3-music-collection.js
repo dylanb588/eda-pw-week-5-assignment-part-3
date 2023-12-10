@@ -36,8 +36,21 @@ function showCollection(collection) {
 
 showCollection(myCollection);
 
+function findByArtist(collection, artist) {
+  let match = [];
 
+  for (let i = 0; i < collection.length; i++) {
+    if (collection[i].artist === artist) {
+      match.push(collection[i]);
+    }
+  }
+  return match;
+}
 
+let artistToFind = 'Lana Del Rey';
+const result = findByArtist(myCollection, artistToFind);
+
+console.log(result);
 
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
