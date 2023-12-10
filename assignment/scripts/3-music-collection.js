@@ -54,8 +54,6 @@ console.log(`Finding  ${artistToFind}:`, result);
 
 artistToFind = 'Elvis Presley';
 result = findByArtist(myCollection, artistToFind);
-
-console.log(`Finding ${artistToFind}:`, result);
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
